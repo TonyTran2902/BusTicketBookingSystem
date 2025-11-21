@@ -1,0 +1,26 @@
+# Node artifacts
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Builds and caches
+dist/
+client/dist/
+server/dist/
+.vite/
+
+# Environment/config
+.env
+.env.local
+client/.env
+server/.env
+
+# Logs and coverage
+*.log
+npm-debug.log*
+pnpm-debug.log*
+coverage/
+
+# Editors/OS
+.DS_Store
+.vscode/
