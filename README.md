@@ -58,6 +58,11 @@ MONGODB_URI="mongodb://localhost:27017/awad" node Database/seed.mjs
 ```
 Passwords are defined in `Database/seed.mjs`; rerun anytime to update.
 
+## Admin Sign In
+- Email: `admin@admin.com`
+- Password: `admin@admin.com`
+Use these credentials on the sign-in page to access the admin dashboard.
+
 ## Google OAuth Setup
 1. In Google Cloud Console, create a Web Client credential.  
    - Authorized JavaScript origins: your Vite URL (e.g., `http://localhost:5173`).  
