@@ -314,6 +314,42 @@ button.theme-toggle:active {
   gap: 1rem;
 }
 
+.admin-callout {
+  border: 1px dashed var(--border);
+  background: var(--panel-soft);
+  border-radius: 0.9rem;
+  padding: 1rem 1.1rem;
+  display: grid;
+  gap: 0.6rem;
+  text-align: left;
+}
+
+.credential-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.credential {
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.75rem;
+  border-radius: 0.75rem;
+  background: var(--panel-soft);
+  display: grid;
+  gap: 0.25rem;
+}
+
+.credential span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.credential code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  color: var(--text-strong);
+}
+
 .avatar {
   width: 56px;
   height: 56px;

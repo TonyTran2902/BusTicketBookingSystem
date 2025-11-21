@@ -129,6 +129,25 @@ export const LoginPage = () => {
             size="large"
           />
           <p className="muted">Single Sign-On keeps your session secure via httpOnly cookies.</p>
+          <div className="admin-callout">
+            <div className="pill" style={{ justifySelf: "flex-start" }}>
+              Admin access
+            </div>
+            <p className="muted">
+              Use the demo admin account to explore the admin dashboard without creating a new user.
+            </p>
+            <div className="credential-grid">
+              <div className="credential">
+                <span>Email</span>
+                <code>admin@admin.com</code>
+              </div>
+              <div className="credential">
+                <span>Password</span>
+                <code>admin@admin.com</code>
+              </div>
+            </div>
+            <p className="muted">After signing in, click Admin in the sidebar to view admin tools.</p>
+          </div>
         </div>
       </div>
     </div>
